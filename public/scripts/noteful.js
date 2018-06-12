@@ -335,6 +335,7 @@ const noteful = (function () {
           render();
         })
         .catch(handleErrors);
+      
     });
   }
 
@@ -397,6 +398,7 @@ const noteful = (function () {
 
       api.create('/api/login', loginUser)
         .then(response => {
+          store.authToken = response.authToken;
           store.authorized = true;
           loginForm[0].reset();
 
