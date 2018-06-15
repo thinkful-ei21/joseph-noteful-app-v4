@@ -42,7 +42,8 @@ router.get('/', (req, res, next) => {
 // });
 
 router.post('/', (req, res, next) => {
-  const { fullname, username, password } = req.body;
+  let { fullname, username, password } = req.body;
+  fullname = fullname.trim();
 
   const requiredFields = ['username', 'password'];
   const missingField = requiredFields.find(field => !(field in req.body));
@@ -107,6 +108,7 @@ router.post('/', (req, res, next) => {
   }
 
   return User.hashPassword(password)
+    
     .then(digest => {
       const newUser = {
         username,

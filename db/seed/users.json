@@ -3,23 +3,18 @@
     "_id": "333333333333333333333300",
     "fullname": "Bob User",
     "username": "bobuser",
-    "password": "$2a$10$8kYwwQcdbNYSRDAt9M.AL.Ee0kbP8pzrUDCIExzoRit6aSixBvTSS"
+    "password": "$2a$10$2MZVUw10XfmmYvJD08FwyuqQWzq2NDL/uPYLzNhwAKxt5/0dWfP8."
   },
   {
     "_id": "333333333333333333333301",
     "fullname": "Pat User",
     "username": "patuser",
-    "password": "$2a$10$.h.BwDGHPqcfoNIo3oueXOPM2Iw5FY3tpiGNCgfvl2kn4gtsw7ECG"
+    "password": "$2a$10$2MZVUw10XfmmYvJD08FwyuqQWzq2NDL/uPYLzNhwAKxt5/0dWfP8."
   },
   {
     "_id": "333333333333333333333302",
     "fullname": "Jane User",
     "username": "janeuser",
-    "password": "$2a$10$KNh3W2hEoS8SQlzBBpxrxeH4JQTnowrBjd8Q.mOfFQ.b8aHlHX1IO"
-  },
-  {
-    "_id": "333333333333333333333303",
-    "username": "anonuser",
-    "password": "$2a$10$vRB5vhmTS3qn/nqtsfeaMujj6DADmSl8cNyiULs5widcZxNttz9bG"
+    "password": "$2a$10$2MZVUw10XfmmYvJD08FwyuqQWzq2NDL/uPYLzNhwAKxt5/0dWfP8."
   }
 ]
