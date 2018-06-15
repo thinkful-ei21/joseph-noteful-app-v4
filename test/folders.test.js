@@ -41,7 +41,7 @@ describe('Noteful API - Folders', function () {
   });
 
   afterEach(function () {
-    return mongoose.connection.db.dropDatabase();
+    return mongoose.connection.db.dropDatabase(); 
   });
 
   after(function () {
